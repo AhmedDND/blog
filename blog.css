@@ -1,0 +1,41 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.index {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.index>a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.about>a,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.index_body>a {
+    text-decoration: none;
+}
